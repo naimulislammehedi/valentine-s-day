@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine?</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Animated background with falling hearts -->
+    <div class="background" id="background"></div>
+
+    <!-- Main container -->
+    <div class="container">
+        <!-- Decorative hearts -->
+        <div class="decorative-heart heart-1">
+            <i class="fas fa-heart"></i>
+        </div>
+        <div class="decorative-heart heart-2">
+            <i class="fas fa-heart"></i>
+        </div>
+        
+        <!-- Title -->
+        <h1 class="title">Will You Be My Valentine?</h1>
+        
+        <!-- Subtitle -->
+        <p class="subtitle">This Valentine's Day, I have a very special question for you...</p>
+        
+        <!-- Buttons container -->
+        <div class="buttons-container">
+            <!-- Yes button -->
+            <button class="btn btn-yes" id="yesBtn">
+                <i class="fas fa-heart"></i> YES!
+            </button>
+            
+            <!-- No button -->
+            <button class="btn btn-no" id="noBtn">
+                <i class="far fa-heart"></i> No
+            </button>
+        </div>
+        
+        <!-- Hidden message that appears when Yes is clicked -->
+        <div class="message" id="message">
+            Yay! You've made me the happiest person! 💖 Happy Valentine's Day!
+        </div>
+        
+        <!-- Footer -->
+        <div class="footer">
+            Made with <i class="fas fa-heart" style="color:#ff3366;"></i> for Valentine's Day
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
